@@ -4,7 +4,7 @@ import Chess from 'chess.js';
 
 import Chessboard from '../Chessboard';
 
-class HumanVsHuman extends Component {
+export class HumanVsHuman extends Component {
   static propTypes = { children: PropTypes.func };
 
   state = {
