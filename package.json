@@ -1,8 +1,7 @@
 {
   "name": "chessboardjsx",
   "version": "1.0.1",
-  "description":
-    "Chessboard.jsx is a chessboard for React. Inspired by chessboard.js",
+  "description": "Chessboard.jsx is a chessboard for React. Inspired by chessboard.js",
   "main": "dist/chessboard.min.js",
   "scripts": {
     "contributors:add": "all-contributors add",
@@ -18,8 +17,14 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
-  "keywords": ["react", "chess", "chessboard"],
-  "files": ["dist"],
+  "keywords": [
+    "react",
+    "chess",
+    "chessboard"
+  ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/willb335/chessboardjsx.git"
@@ -63,7 +68,7 @@
     "css-loader": "0.28.11",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "4.19.1",
-    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-react": "^7.8.2",
     "file-loader": "1.1.11",
     "ghooks": "2.0.4",
@@ -71,11 +76,11 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "22.4.3",
     "jest-dom": "1.3.0",
-    "kcd-scripts": "0.39.1",
+    "kcd-scripts": "0.43.0",
     "lodash-webpack-plugin": "0.11.5",
     "mini-css-extract-plugin": "0.4.0",
     "npm-run-all": "4.1.3",
-    "prettier": "1.12.1",
+    "prettier": "1.14.2",
     "prop-types": "15.6.1",
     "react": "^16.4.0",
     "react-docgen": "2.20.1",

@@ -13,6 +13,8 @@ export default function CustomizedBoard() {
       id="standard"
       orientation="black"
       calcWidth={({ screenWidth }) => (screenWidth < 500 ? 350 : 480)}
+      darkSquareStyle={{ backgroundColor: 'black' }}
+      lightSquareStyle={{ backgroundColor: '#DD0707' }}
       roughSquare={roughSquare}
       position="start"
       boardStyle={{
